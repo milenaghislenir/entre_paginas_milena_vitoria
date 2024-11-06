@@ -1,0 +1,26 @@
+.card {
+  border-radius: 0 !important;
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.card img {
+  border-radius: 0 !important;
+  border: none !important;
+  background-color: transparent !important;
+  margin-top: 12px;
+  margin-bottom: 18px;
+}
+
+.card-title {
+  color: black !important;
+  font-weight: 600 !important;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.direitos {
+  color: black;
+}

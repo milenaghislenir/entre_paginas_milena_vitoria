@@ -1,0 +1,14 @@
+iframe {
+  margin: 20px 0;
+  width: 100%;
+}
+
+form {
+  background-color: #5d301d;
+  border-radius: 15px;
+  padding: 16px;
+}
+
+label {
+  color: #f7d3c4;
+}

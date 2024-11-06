@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Entre Páginas</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Playwrite+DE+Grund:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/contato.css" />
+    <style>
+      .card-img-top {
+          height: 200px;
+          object-fit: cover; 
+      }
+      .navbar-brand img {
+          width: 150px; 
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand img-container">
+        <img class="imglogo" src="../img/logo.png" alt="Logo" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Alterna navegação"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./sobre.html">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./livros.html">Livros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contato.html">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section class="menu">
+        <article>
+          <h5 class="sub-title">Contato</h5>
+          <br />
+          <br />
+          <form>
+            <div class="form-group">
+              <label for="inputNome">Nome:</label>
+              <input
+                class="form-control"
+                id="inputNome"
+                placeholder="Insira seu nome aqui!"
+              />
+            </div>
+            <div class = "form-total"
+            <div class="form-group">
+              <label for="inputEmail">E-mail</label>
+              <input
+                class="form-control"
+                id="inputEmail"
+                placeholder="Coloque aqui seu melhor e-mail"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Qual história "Entre Páginas" você está à procura?</label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                placeholder="E pode falar com detalhes... porque adoramos uma fofoca literária!! :) "
+                rows="3"
+              ></textarea>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck1">
+              <label class="custom-control-label" for="customCheck1">Desejo receber atualizações em meu e-mail</label>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+          <iframe 
+              width="425" 
+              height="350" 
+              src="https://www.openstreetmap.org/export/embed.html?bbox=-52.60248541831971%2C-27.139593356327474%2C-52.595189809799194%2C-27.13485766250949&amp;layer=mapnik"  
+              style="border: 1px solid black">
+          </iframe>
+          <br/>
+          <small>
+              <a href="https://www.openstreetmap.org/#map=17/-27.137226/-52.598838&amp;layers=N" target="_blank">
+                  <buttontype="submit" class="btn btn-primary">Ver Mapa Ampliado</button>
+              </a>
+          </small>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <a href="./index.html">Home</a> |
+        <a href="./sobre.html">Sobre</a> |
+        <a href="./livros.html">Livros</a> |
+        <a href="./contato.html">Contato</a> | Siga-nos nas redes sociais: <i class="bi bi-instagram"></i> <i class="bi bi-facebook"></i>
+      </nav>
+      <hr />
+      <p class="direitos">©2024 Entre Páginas. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>

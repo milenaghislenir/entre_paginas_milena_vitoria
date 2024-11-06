@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Entre Páginas</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/sobre.css" />
+    <style>
+      body {
+        border-radius: 10px;
+        padding: 0;
+        margin: 0;
+        background-color: #f9f9f9;
+      }
+      .welcome {
+        background-color: #fb0202;
+        color: #080808;
+        padding: 15px;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+      }
+      .navbar {
+        margin: 0;
+        width: 100%;
+      }
+      .nav-item {
+        margin-left: 15px;
+      }
+      .card-body {
+        padding: 20px;
+      }
+      .btn-link {
+        border: 2px solid #4002fb;
+        border-radius: 3px;
+        padding: 5px;
+        text-align: left;
+        display: block;
+        width: 100%;
+      }
+      .card-img-top {
+        height: 200px;
+        object-fit: cover;
+      }
+      .navbar-brand img {
+        width: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand img-container">
+        <img class="imglogo" src="../img/logo.png" alt="Logo" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Alternar navegação"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./sobre.html">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./livros.html">Livros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contato.html">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <section class="menu">
+        <article>
+          <h5 class="sub-title">Sobre nós</h5>
+          <br />
+          <h5 class="sub-title">Vem conhecer um poquinho mais do nosso trabalho!</h5>
+          <br />
+          <div class="row">
+            <img
+              src="../img/nos.png"
+              class= "imgnos img-fluid responsive-image"
+              alt="Imagem responsiva"
+            />
+            <div class="accordion" id="accordionExample">
+              <div class="card w-100 border-0">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                  <button
+                  class="btn btn-link btn-historia"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                  style="color: #ffffff; background-color: #5d301d; border: none;"
+                  >
+                  História:
+                </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapseOne"
+                  class="collapse show"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body">
+                    <div class="text-center">
+                      Nossa história começou com uma paixão antiga por livros –
+                      e uma pilha crescente deles em cada canto da casa! A ideia
+                      do nosso sebo virtual nasceu justamente dessa paixão e de
+                      um momento de reflexão. Com tantos livros lidos e
+                      guardados, começou a brotar uma pergunta: por que esses
+                      livros deveriam ficar parados em uma estante quando
+                      poderiam ganhar novas histórias com outros leitores? Foi
+                      aí que o sonho do Entre Páginas começou a tomar forma.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link collapsed"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                      style="color: #ffffff; background-color: #5d301d; border: none;"
+
+                    >
+                      Website:
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapseTwo"
+                  class="collapse"
+                  aria-labelledby="headingTwo"
+                  data-parent="#accordionExample"
+
+                >
+                  <div class="card-body">
+                    Criamos o site pensando em simplicidade e acessibilidade, com seções fáceis de navegar e descrições detalhadas de cada título. Desde então, temos atraído leitores de todas as partes do país, que procuram não só preços acessíveis, mas também o encanto de encontrar um livro que já foi querido por alguém. E o mais gratificante? Cada compra representa uma nova vida para o livro e a certeza de que ele continuará a inspirar e emocionar.
+
+
+                  </div>
+                </div>
+              </div>
+              <div class="card"style="color: #5d301d; background-color: #5d301d; border: none;">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <a href="./index.html">Home</a> |
+        <a href="./sobre.html">Sobre</a> |
+        <a href="./livros.html">Livros</a> |
+        <a href="./contato.html">Contato</a> | Siga-nos nas redes sociais: <i class="bi bi-instagram"></i> <i class="bi bi-facebook"></i>
+      </nav>
+      <hr />
+      <p class="direitos">©2024 Entre Páginas. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+.card-wrapper {
+  font-weight: 10px;
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+}
+
+.card {
+  width: 200px;
+  font-weight: 10px;
+}
+
+.card-text {
+  color: black;
+}
+
+.direitos {
+  color: black;
+}
+
+.card-title {
+  font-weight: bolder;
+}
+
+.card-nome {
+  font-weight: bolder;
+  color: #5d301d;
+}
